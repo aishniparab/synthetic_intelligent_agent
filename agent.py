@@ -10,7 +10,6 @@ class Agent:
 
 	#def behaviour(self):
 		#if self.connection == "simple":
-
 	
 	def find_path(self, env, start):
          visited, queue = set([start]), collections.deque([[start]])
